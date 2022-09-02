@@ -16,6 +16,14 @@ export const frameIn: Array<RouteRecordRaw> = [
           title: '示例',
         },
       },
+      {
+        path: 'home',
+        name: 'Home',
+        component: () => import('@/views/home/index.vue'),
+        meta: {
+          title: '示例',
+        },
+      },
     ],
   },
 ];
